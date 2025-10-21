@@ -7,11 +7,24 @@
     .white-text {
       color: white;
     }
+    .circle-image {
+      width: 150px; /* Adjust size as needed */
+      height: 150px; /* Same as width for a perfect circle */
+      border-radius: 50%; /* Makes the image circular */
+      border: 5px solid #F8F8FF; /* Adds a border with color */
+      object-fit: cover; /* Ensures the image fits within the circle */
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   </style>
 </head>
 <body style="background-color: #060606;">
 
 <h1 class="white-text" style="text-align: center;">Welcome to my page!</h1>
+<img src="IndexPic.png" alt="Circular Image" class="circle-image">
 
 </body>
 </html>
